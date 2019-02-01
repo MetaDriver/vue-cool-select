@@ -41,6 +41,7 @@
         @keyup="onSearchKeyUp"
         @keydown="onSearchKeyDown"
         @input="onSearch"
+        @blur="focused = false"
       >
     </div>
 
